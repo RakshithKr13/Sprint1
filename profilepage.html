@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+    </style>
+</head>
+<body>
+<div class="card">
+    <img src="Contact info icon.png" alt="Userpic" style="width:30%">
+    <h2>User Profile Card</h2>
+    <form action="/send data to this link">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+
+        <label for="date">DOB:</label><br>
+        <input type="date" id="date" name="" value=""><br><br>
+        <label for="connum">Contact No:</label><br>
+        <input type="text" id="connum" name="" value=""><br><br>
+        <label for="mailid">Mail ID:</label><br>
+        <input type="text" id="mailid" name="" value=""><br><br>
+
+
+        <input type="submit" value="Save">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/add link here".</p>
+</body>
+</html>
